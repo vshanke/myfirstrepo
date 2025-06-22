@@ -1,2 +1,2 @@
 Second file
-chage 3
+change 3
