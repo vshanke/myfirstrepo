@@ -1,4 +1,4 @@
-from myfunc import add
+from myapp.myfunc import add
 import requests
 
 def test_add():
