@@ -28,3 +28,10 @@ jobs:
     - name: Run tests
       run: |
         pytest
+ 
+    - name: Dummy deployment
+      if: success()  # runs only if all previous steps succeeded
+      run: |
+        echo "✅ Tests passed. Starting dummy deployment..."
+        echo "Deploying application to staging environment..."
+        echo "Simulated deployment completed successfully ✅"
